@@ -6,5 +6,4 @@
 - remove metadata from any photos you upload/commit!
     - this site works fine: https://jimpl.com/
 
-### TODOs
-- add content for project "rfid-cat-feeder"
+- site layout inspiration: https://adamharley.com/
