@@ -1,1 +1,74 @@
-Elliot stills needs to add content to this page...
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RFID Cat Feeder</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>RFID Cat Feeder</h1>
+            </header>
+            <main>
+                <figure class="main-img">
+                    <img src="./display-img.jpg" alt="RFID Cat Feeder" />
+                </figure>
+                <section class="project-description">
+                    <p>
+                        I designed and built an RFID cat feeder to solve the problem of inequitable kibble consumption between our two cats. One of our cats, Tucker, eats slowly and often leaves his bowl—returning throughout the day for a few bites—while our other cat, Amigo, gobbles up everything and happily finishes whatever Tucker leaves behind.
+                    </p>
+                    <p>
+                        Although off-the-shelf products exist, I wanted to create a feeder that would allow only Tucker to access his bowl while keeping Amigo out. This project marked my first deep dive into CAD and 3D printing as well as my initial foray into electrical engineering and embedded programming beyond a classroom setting.
+                    </p>
+                    <p>
+                        Throughout the project, I went through several hardware and software iterations, interspersed with “user studies” (letting Tucker test the feeder) to gather data. The final design integrated an ESP32, an RFID reader module, and an ultrasonic sensor for more reliable food access.
+                    </p>
+                    <p>
+                        When Tucker approaches the feeder, a coil embedded in its base connected to an RFID module detects the chip on his collar, triggering a servo to open a door covering his bowl. Because the RFID reader can sometimes be unreliable, an ultrasonic sensor keeps the door open until it no longer detects a cat in front of the bowl.
+                    </p>
+                    <p>
+                        I iterated through several major design evolutions:
+                    </p>
+                    <div class="feeder-evolutions">
+                        <img src="./img/feeder-v1.png" alt="Feeder Version 1" />
+                        <img src="./img/feeder-v2.png" alt="Feeder Version 2" />
+                        <img src="./img/feeder-v4.png" alt="Feeder Version 4" />
+                        <img src="./img/feeder-v5.png" alt="Feeder Version 5" />
+                    </div>
+                    <p>
+                        Throughout this project, I significantly improved my CAD and 3D printing skills, experimented with various sensor combinations, and troubleshot multiple circuit issues. I also learned the importance of designing for manufacturability and assembly. I am proud of the final product and the skills I developed along the way.
+                    </p>
+                </section>
+                <section class="gallery">
+                    <h2>Gallery</h2>
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="./img/first-working-prototype.jpg" alt="First Working Prototype" />
+                            <figcaption>First working prototype.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="./img/debugging-help-1.jpg" alt="UART Debugging with Tucker" />
+                            <figcaption>Tucker assisting with UART debugging.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="./img/debugging-help-2.jpg" alt="Tucker Supervising Tests" />
+                            <figcaption>Tucker supervising tests.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="./img/old-prototypes.jpg" alt="Old Prototypes" />
+                            <figcaption>Old prototypes and parts.</figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

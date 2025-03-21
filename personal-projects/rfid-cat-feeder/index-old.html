@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- something here? -->
+</head>
+<body>
+
+<img src="./display-img.jpg" />
+
+I designed and built an RFID cat feeder to solve the problem of inequitable kibble consumption between our two cats. One of our cats, Tucker, eats food slowly and will often leave his bowl and return throuout the day to enjoy a few bites of kibble before wandering off. Our other cat, Amigo, gobbles down all he can manage and will happly polish off whatever Tucker leaves in his bowl. 
+
+While off-the-shelf products exist to solve this problem, I wanted to design a feeder that would only allow Tucker to access his bowl of food, while keeping Amigo out. This was my first big foray into CAD and 3D printing. It was also my first time doing electrical engineering and embedded programming work outside of a classroom setting.
+
+I went through several hardware and software iterations interspersed with "user studies" (letting Tucker try to use it) to collect data. The design I settled on used an ESP32 combined with an RFID reader module and an ultrasonic distance sensor (to enable more reliable access to the food).
+
+When Tucker approaches the feeder, a coil of wire embedded in the feeder's base connected to an RFID model detects an RFID chip on his collor. This triggers a servo to open a door covering his bowl. Because the RFID reader is somewhat unreliable, an ultrasonic sensor keeps the door open until it no longer detects a cat in front of the bowl.
+
+I went through several major feeder design evolutions:
+<img src="./img/feeder-v1.png" />
+<img src="./img/feeder-v2.png" />
+<img src="./img/feeder-v4.png" />
+<img src="./img/feeder-v5.png" />
+
+During the course of the project I greatly improved my CAD and 3D printing skills, tested various sensor combinations and troubleshooted numerous circuit issues. I also learned a lot about the importance of designing for manufacturability and assembly. I am proud of the final product and the skills I developed along the way.
+
+
+Gallery of the final product:
+<img src="./img/first-working-prototype.jpg" />
+First working prototype.
+
+<img src="./img/debugging-help-1.jpg" />
+Tucker helping with UART debugging help.
+
+<img src="./img/debugging-help-2.jpg" />
+Tucker supervising tests.
+
+<img src="./img/old-prototypes.jpg" />
+Old prototypes and parts.
+
+</body>
+</html>

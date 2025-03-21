@@ -1,0 +1,97 @@
+/* TODO: look over this file and make changes and add content! */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .main-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .project-description p {
+    margin-bottom: 20px;
+  }
+  
+  .feeder-evolutions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .feeder-evolutions img {
+    width: calc(50% - 10px);
+    height: auto;
+  }
+  
+  .gallery {
+    margin-top: 40px;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-item figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Cap all images to half the viewport height */
+  img {
+    max-height: 50vh;
+    object-fit: contain;
+  }
+  
