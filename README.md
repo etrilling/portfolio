@@ -7,3 +7,7 @@
     - this site works fine: https://jimpl.com/
 
 - site layout inspiration: https://adamharley.com/
+
+
+# TODOs
+- (maybe) Use more descriptive titles for some academic projects. Add a few sentence description of each project next to the link. You can use an LLM to do this.
